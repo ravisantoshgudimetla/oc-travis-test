@@ -1,0 +1,16 @@
+sudo: required
+
+addons:
+  apt:
+    update: true
+
+env:
+  global:
+  - OPENSHIFT_VERSION=3.6.1
+  - OPENSHIFT_COMMIT=008f2d5 
+
+services:
+  - docker
+
+script:
+  - ./setup.sh
