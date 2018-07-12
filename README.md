@@ -1,2 +1,2 @@
 # oc-travis-test
-Test oc cluster up on travis ci
+Test oc cluster up on travis ci.
