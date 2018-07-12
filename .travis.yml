@@ -7,7 +7,7 @@ addons:
 env:
   global:
   - OPENSHIFT_VERSION=3.9
-  - OPENSHIFT_COMMIT=71543b2 
+  - OPENSHIFT_COMMIT=191fece 
 
 services:
   - docker
