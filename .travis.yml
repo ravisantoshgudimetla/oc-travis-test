@@ -6,7 +6,7 @@ addons:
 
 env:
   global:
-  - OPENSHIFT_VERSION=3.9
+  - OPENSHIFT_VERSION=3.9.0
   - OPENSHIFT_COMMIT=191fece 
 
 services:
